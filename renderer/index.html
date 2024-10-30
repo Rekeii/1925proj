@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Inventory</title>
+</head>
+<body>
+    <h1>Product Inventory</h1>
+
+    <h3>Add Product</h3>
+    <input id="productID" placeholder="Product ID"><br>
+    <input id="name" placeholder="Name"><br>
+    <input id="category" placeholder="Category"><br>
+    <input id="price" placeholder="Price" type="number"><br>
+    <input id="stockQuantity" placeholder="Stock Quantity" type="number"><br>
+    <input id="description" placeholder="Description"><br>
+    <button id="addProductButton">Add Product</button>
+
+
+    <h3>Remove Product</h3>
+    <input type="text" id="removeProductID" placeholder="Product ID to remove">
+    <button id="removeProductBtn">Remove Product</button>
+
+    <h3>Update Product</h3>
+    <input type="text" id="updateProductID" placeholder="Product ID to update">
+    <input type="text" id="updatedName" placeholder="New Name">
+    <input type="text" id="updatedCategory" placeholder="New Category">
+    <input type="number" id="updatedPrice" placeholder="New Price">
+    <input type="number" id="updatedStockQuantity" placeholder="New Stock Quantity">
+    <input type="text" id="updatedDescription" placeholder="New Description">
+    <button id="updateProductBtn">Update Product</button>
+
+    <h3>All Products</h3>
+    <button id="fetchProductsButton">Fetch All Products</button>
+    <ul id="productList"></ul>
+
+    <script src="renderer.js"></script>
+</body>
+</html>

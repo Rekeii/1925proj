@@ -1,0 +1,12 @@
+{
+  "name": "bookstore",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^32.1.2",
+    "node-addon-api": "^8.1.0"
+  }
+}

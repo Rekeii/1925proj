@@ -1,7 +1,7 @@
 
 # 1925 Bookstore
 
-A C++ project with CRUD features and  a GUI using electron.js through the use of node.js and CouchDB as a backend.
+A C++ project with CRUD features and  a GUI using electron.js through the use of node.js and CouchDB as a backend. I made this in linux, i don't really know how to configure this in Windows haha
 
 ## a lil documentation
 

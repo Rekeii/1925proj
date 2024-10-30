@@ -3,6 +3,15 @@
 
 A C++ project with CRUD features and  a GUI using electron.js through the use of node.js and CouchDB as a backend. I made this in linux, i don't really know how to configure this in Windows haha
 
+### running in linux...
+in the same folder, do this in the console:
+```console
+node-gyp configure
+node-gyp build
+npm install
+npm start
+```
+
 ## a lil documentation
 
 
